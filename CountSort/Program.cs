@@ -22,8 +22,7 @@ int[] CountSort(int[] arr, bool ascending)
 {
     var maxValue = GetMaxValue(arr);
     var statsArr = new int[maxValue + 1];
-
-
+    
     // Отримуєм елемент з основного масиву та записуємо його в statArr
     for (int i = 0; i < arr.Length; i++)
     {
